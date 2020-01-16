@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: /root/Cloudgen_task/Dockerfile
+      
